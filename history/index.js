@@ -1,0 +1,1 @@
+let sayHello = () => 'hello, babel'

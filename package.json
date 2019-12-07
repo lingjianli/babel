@@ -1,0 +1,26 @@
+{
+  "name": "01ES-env",
+  "version": "1.0.0",
+  "description": "* 为什么需要搭建环境？",
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/plugin-transform-arrow-functions": "^7.7.4",
+    "@babel/plugin-transform-runtime": "^7.7.5",
+    "@babel/preset-env": "^7.7.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx babel src --out-dir lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.7.0",
+    "@babel/runtime": "^7.7.5",
+    "@babel/runtime-corejs3": "^7.7.5",
+    "core-js": "^3.4.7"
+  }
+}
