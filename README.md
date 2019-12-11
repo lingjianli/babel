@@ -238,6 +238,21 @@ _promise["default"].resolve()["finally"](function () {
 
 ## 总结
 
+```
+
+├── babel.config.js   // babel 配置文件
+├── index.html        
+├── lib               // 经插件转化后的 JavaScript
+|  └── index.js
+├── package-lock.json  
+├── package.json      
+├── README.md
+└── src               // js文件
+   └── index.js
+
+
+```
+
 一切都以官网为主哈。。
 
 参考 https://www.babeljs.cn/repl
