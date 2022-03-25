@@ -9,7 +9,7 @@
     "@babel/plugin-transform-arrow-functions": "^7.7.4",
     "@babel/plugin-transform-runtime": "^7.7.5",
     "@babel/preset-env": "^7.7.5",
-    "minimist": ">=1.2.3",
+    "minimist": ">=1.2.6",
     "kind-of": ">=6.0.3"
   },
   "scripts": {
